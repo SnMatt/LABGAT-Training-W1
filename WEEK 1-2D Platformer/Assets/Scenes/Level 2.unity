@@ -3606,6 +3606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arrow Trap
       objectReference: {fileID: 0}
+    - target: {fileID: 1303235545509692851, guid: 055cea2f9a7f8294ab11390bfc0357b1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 055cea2f9a7f8294ab11390bfc0357b1, type: 3}
 --- !u!1 &1343612992

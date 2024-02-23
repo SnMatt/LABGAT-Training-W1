@@ -28,10 +28,12 @@ public class Health : MonoBehaviour
         CurrHealth = _startingHealth;
         _anim = GetComponent<Animator>();
         _sr = GetComponent<SpriteRenderer>();
+        Physics2D.IgnoreLayerCollision(8, 9, false);
     }
     
     public void TakeDamage(int amount)
     {
+        Debug.Log("AAA");
         if (_isInvulnerable) return;
 
         CurrHealth = Mathf.Clamp(CurrHealth - amount, 0, _startingHealth);

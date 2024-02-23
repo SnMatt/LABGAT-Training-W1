@@ -6,8 +6,10 @@ public class EnemyDamage : MonoBehaviour
 {
     protected void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        Debug.Log("eeeee");
+        if (collision.CompareTag("Player"))
         {
+            Debug.Log("ssss");
             collision.GetComponent<Health>().TakeDamage(1);
         }
     }

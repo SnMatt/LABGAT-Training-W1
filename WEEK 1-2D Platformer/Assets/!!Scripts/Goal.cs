@@ -14,6 +14,7 @@ public class Goal : MonoBehaviour
             SceneManager.LoadScene(_sceneIndex);
             //collision.GetComponent<Health>().StopAllCoroutines();
             collision.GetComponent<Health>().ResetState();
+            Physics2D.IgnoreLayerCollision(8, 9, false);
         }
     }
 
