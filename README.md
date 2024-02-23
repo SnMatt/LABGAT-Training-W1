@@ -24,9 +24,10 @@ Improvement: The melee and ranged enemy share some behaviour, we could have used
 ### Liskov Substitution
 in the script Health, we used a Behaviour type variable. Behaviours are Components that can be enabled or disabled, and the script in unity that inherits MonoBehaviour can be treated as a Behaviour this is because the MonoBehaviour itself inherits from Behaviour.
 
-unity build: https://smtt.itch.io/labgat-week-1 (password: gat1)
-
 ### Dependency Inversion
 The volume setting (or options in general) in the game is controlled from a selection arrow and we have AudioManager script that handles all the logic, the abstraction layer is that the selection arrow doens't need to know how each option is implemented, rather the event on the Button component handles which method to execute. The button here acts as a layer of abstraction for the selection arrow and the logic of each options
 
 Improvement: some of the scripts are still dependant to other scripts and introducing an abstraction layer can help if we want to scale up the game.
+
+---
+unity build: https://smtt.itch.io/labgat-week-1 (password: gat1)
