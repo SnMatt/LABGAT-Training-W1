@@ -31,3 +31,10 @@ Improvement: some of the scripts are still dependant to other scripts and introd
 
 ---
 unity build: https://smtt.itch.io/labgat-week-1 (password: gat1)
+
+## Controls
+WASD - Move
+Space - Jumps
+Left Mouse Button - Fire/Attack
+E - Select
+Esc - Pause
